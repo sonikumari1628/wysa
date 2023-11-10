@@ -1,0 +1,93 @@
+
+.box{
+.img {
+    margin-top: 8%;
+    width: 20vw;
+    background-color: transparent;
+    
+}
+
+// @keyframes backwards {
+//     from {
+//       opacity: 0;
+//       transform: translateY(-20px);
+//     }
+//     to {
+//       opacity: 1;
+//       transform: translateY(0);
+//     }
+//   }
+
+.typo {
+    font-size: 3.2em;
+    color: white;
+    font-weight: 600;
+    transition: ease-in;
+    transition-delay: 1s;
+}
+
+
+.wysa {
+    color: #257a70;
+    font-weight: 600;
+    font-size: 1em;
+}
+
+
+
+
+
+.typo2 {
+    color: white;
+    margin-top: 4%;
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.icon {
+    
+    /* width: 4em; */
+
+    padding: 6px 15px ;
+    height: 8vh;
+    color: white ;
+    border-radius: 100%;
+    background-color: #f77f00;
+    
+}
+
+@media (max-width: 768px) {
+    .box {
+        // width: 100%;
+        // height: 100vh;
+
+    .img {
+        margin: 15vh 0 0 0;
+        width: 50vw;
+    }
+
+    .typo {
+        font-size: 2em;
+        padding: 0 0.5em 0.5em 0.5em;
+    }
+
+    .typo2 {
+        font-size: 1.7em;
+        padding: 0 1em 0 1em;
+        margin-bottom: 20%;
+    }
+    .icon{
+       
+        padding: 10px 15px 10px 15px;
+    }
+}
+}
+}
+   
+
+
+
+
+
+
+
