@@ -25,7 +25,7 @@ export const useFetchQuestion = () => {
     (async () => {
       try {
         // let question = await data.data
-        const response = await axios.get("http://localhost:8800/api/quest/");
+        const response = await axios.get("http://localhost:3000/api/quest/");
         const question = response.data.data;
         console.log(question);
 
@@ -75,7 +75,7 @@ export const signup = (userData) => {
       const config = { headers: { "Content-Type": "application/json" } };
 
       const { data } = await axios.post(
-        "http://localhost:8800/api/auth/signup",
+        "http://localhost:3000/api/auth/signup",
         userData,
         config
       );
